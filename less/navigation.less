@@ -8,10 +8,18 @@ nav {
     justify-content: space-between;
 }
 
+@media @tablet {
+    .navigation {
+        width: 40%;
+    }
+}
+
+
 @media @mobile {
     nav {
         flex-direction: column;
         // justify-content: center;
+        align-items: center;
     }
     
     nav h1 {
@@ -26,7 +34,7 @@ nav {
         align-items: baseline;
         margin-bottom: 0;
         // border: 1px solid red;
-        font-size: 15px;
+        
     }
 
 }
@@ -37,7 +45,9 @@ nav section {
     justify-content: space-between;
     margin-bottom: 30px;
     margin-right: 5%;
+    font-size: 15px;
 }
+
 
 .navigation a {
     // margin-right: 5%;
