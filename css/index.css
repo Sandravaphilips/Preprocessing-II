@@ -269,6 +269,10 @@ nav section {
   .home .content-section .text-content,
   .home .content-section .img-content {
     width: 100%;
+    padding: 0;
+  }
+  .home .content-section img {
+    width: 100%;
   }
 }
 .home .inverse-content {
@@ -286,6 +290,14 @@ nav section {
 @media (max-width: 500px) {
   .home .inverse-content {
     flex-direction: column-reverse;
+  }
+  .home .inverse-content .text-content {
+    padding: 0;
+    width: 100%;
+  }
+  .home .inverse-content .img-content {
+    padding: 0;
+    width: 100%;
   }
 }
 .home .content-destination {

@@ -46,7 +46,12 @@
       flex-direction: column;
 
       .text-content, .img-content {
-        width: 100%
+        width: 100%;
+        padding: 0;
+      }
+      
+      img {
+        width: 100%;
       }
     }
   }
@@ -67,6 +72,16 @@
 
     @media @mobile {
       flex-direction: column-reverse;
+      
+      .text-content {
+        padding: 0;
+        width: 100%;
+      }
+
+      .img-content{
+        padding: 0;
+        width: 100%;
+      }
     }
   }
 
