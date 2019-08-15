@@ -1,1 +1,15 @@
 // Mixins in here
+
+@import "variables.less";
+
+.btn {
+    background-color: lightseagreen;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+
+    @media @mobile {
+        width: 100%
+    }
+}
